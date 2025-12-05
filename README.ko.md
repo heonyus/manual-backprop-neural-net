@@ -17,7 +17,7 @@
 * **Mathematical Rigor:** 연쇄 법칙(Chain Rule)에 기반한 정확한 기울기 계산.
 
 ## 3. Mathematical Foundations
-이 라이브러리는 **연쇄 법칙(Chain Rule)**을 통해 국소적 미분(Local Gradient)을 상류(Upstream)로 전달합니다.
+이 라이브러리는 연쇄 법칙(Chain Rule)을 통해 국소적 미분(Local Gradient)을 상류(Upstream)로 전달합니다.
 
 $$
 \frac{\partial L}{\partial x} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial x}
@@ -28,6 +28,7 @@ $$
 $$
 \frac{\partial L}{\partial z_k} = y_k - t_k
 $$
+
 (여기서 $y_k$는 소프트맥스 출력, $t_k$는 정답 레이블입니다.)
 
 ## 4. Verification
